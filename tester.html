@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <Title>WELLO</Title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="formcolor formfont">
+
+    <div class="card">
+        <h1>Leave a message?</h1>
+        <nav>
+            <a href="index.html" style="color: rebeccapurple;">Home</a>
+            <a href="Untitled-1.html" style="color: rebeccapurple;">Old site</a>
+        </nav>
+    </div>
+    <table class="centered-div tablecolors card">
+
+
+        <form action="submit.php" method="POST">
+        <tr>
+            <th><label for="name">Name:</label></td>
+            <td><input class="datecolor" type="text" id="name" name="name" required></td>
+        </tr>
+        <tr>
+            <td><label>Gender:</label></td>
+            <td><input  type="radio" name="gender" value="male"> Male</td>
+            <td><input  type="radio" name="gender" value="female"> Female</td>
+        </tr>
+        <tr>
+            <td><label>Do you see me?:</label></td>
+            <td><input type="radio" name="doyouseeme" value="yes"> yes</td>
+            <td><input type="radio" name="doyouseeme" value="no"> no</td>
+        </tr>
+        <tr>
+            <td><label for="birthday">Date of Birth:</label></td>
+            <td><input class="datecolor" type="date" id="birthday" name="birthday"></td>
+        </tr>
+        <tr>
+            <td><label for="today">Current Date:</label></td>
+            <td><input class="datecolor" type="date" id="today" name="todays date"></td>
+
+        </tr>
+        <tr>
+            <td><label for="message">Message:</label></td>
+            <td><textarea class="message"id="message" name="message" rows="5" cols="30"></textarea></td>
+        <tr>
+            <td><label for="myDropdown">Choose an option:</label>
+                <select id="myDropdown" name="selectedOption">
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                </select>
+            </td>
+        </tr>
+        </tr>
+        <tr>
+            <td><button type="submit">DO NOT SUBMIT</button></td>
+            <td><button type="reset">Reset</button></td>
+        </tr>
+        </form>
+
+    </table>
+</body>
+</html>

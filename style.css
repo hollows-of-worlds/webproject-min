@@ -1,0 +1,138 @@
+
+/* index */
+.centered-div {
+  width: 35%; /* Or any specific width */
+  margin: 0 auto;
+  border: 10px;
+  position: relative;
+}
+.indexbody{
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(45deg, rgb(70, 70, 255), rgb(0, 221, 255), rgb(85, 0, 255));
+  
+}
+
+.tablecolors{
+  background-image: linear-gradient(45deg, rgb(0, 255, 242), rgb(0, 162, 255), rgb(0, 255, 221));
+}
+.image1{
+  border-radius: 8px;
+  position: relative;
+  right: 0%;
+  float: left;
+  left: 5%;
+}
+.formfont{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.shoptext {
+  margin: 5%;
+  align-self: center;
+}
+
+.formcolor{
+  background-image: linear-gradient(45deg, rgb(14, 223, 255),rgb(40, 255, 94),rgb(47, 255, 255));
+  height:1000px;
+}
+
+#header {
+    color: #002fff;
+}
+/* 
+.navbar1{
+  color: rgb(0, 255, 255);
+  text-decoration: none;
+}
+.navbar1:hover{
+  color: red;
+  text-decoration: underline;
+}
+.navbar1:visited{
+  color: rgb(81, 255, 249);
+  text-decoration: none;
+}
+
+.navbar2{
+  color: rgb(0, 230, 255);
+  text-decoration: none;
+}
+.navbar2:hover{
+  color: red;
+  text-decoration: underline;
+}
+.navbar2:visited{
+  color: rgb(106, 252, 252);
+  text-decoration: none;
+}
+ */
+
+.aboughtme {
+  text-align: right;
+  text-wrap: true;
+  display: inline-block; 
+  width: 250px;
+  height: 90px;
+  margin-left: 2%;
+  left: 3%;
+}
+
+.mainbody {
+  /* box-shadow: 0 0 10px 15px rgb(79, 176, 255); */
+  display: inline-block;
+  height: 100%;
+  width: 640px;
+  padding: 2px;
+
+}
+
+
+.gradient-blur-container {
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 10px;
+  /* overflow: hidden;  makes the fuzzy effect */
+
+}
+
+.gradient-blur-container::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  background: linear-gradient(45deg,rgb(25, 0, 255),rgb(22, 218, 201),rgb(10, 85, 182));
+  filter: blur(20px);
+  z-index: -1;
+}
+
+.card {
+  position: relative;
+  z-index: 1;
+  background-color: #ceffec56;
+  color: #420202;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+  align-items: center;
+  
+}
+/* home */
+.abought {
+  background-image: linear-gradient(90deg, red, yellow);
+}
+/* untitled */
+.tester-centered-div {
+  padding: 100px auto;
+  border: 50px; /* Or any specific width */
+  margin: 0 auto;
+}
+
+/* tester */
+.message {
+  background-color: rgb(113, 43, 226);
+}
+.datecolor {
+  background-color: rgb(33, 104, 255);
+}
